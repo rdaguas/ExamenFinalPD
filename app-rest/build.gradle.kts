@@ -32,7 +32,8 @@ dependencies {
     //JPA
     implementation("io.quarkus:quarkus-hibernate-orm-panache")
     implementation("io.quarkus:quarkus-jdbc-postgresql")
-
+    //Sirve para mapear fácilmente objetos (ej: de entidad a DTO y viceversa).
+    implementation("org.modelmapper:modelmapper:3.2.3")
     //control de versiones
     //Sirve para manejar migraciones de base de datos, usando archivos .sql versionado
     implementation("io.quarkus:quarkus-flyway")
